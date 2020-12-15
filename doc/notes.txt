@@ -1,0 +1,167 @@
+Javascript - executed in client side in the browser.
+Nodejs - Serverside Javascript engine.
+NPM (Node Package Manager).
+
+Initialise a new node package.
+
+# npm init
+
+Creates a new file, package.json.
+    Includes information regarding your package or module.
+
+# npm install <package-name>
+
+node_modules/
+
+package.json -> dependecies, includes a list of all packages you have installed.
+
+# npm install -D <package-name>
+
+This will install the module as a development dependency.
+
+# npm install -g <package-name>
+
+This will install the module as a global dependency.
+This will not be in the node_modules folder, but instead will place it in npms installation directory. It will also add the package to your local /bin.
+
+
+# git init
+
+Initialise the folder as git repo, and create .git folder.
+
+Create .gitignore file, and add node_modules/
+
+# npm install
+
+And it will check your package.json file for deps, and install them.
+
+
+
+-> package.json
+    "type": "module", turns the current project into a es6 package.
+    Will let you use the new es6+ syntax. (import, etc)
+
+
+dependecies:
+
+http server, all it does it handle the raw HTTP information.
+
+- express. Handles http routing.
+- node-sass (dev). Cleaner way of writing CSS code. Dont need to use semi-colns, dont need to use braces. Al lets you indent in a better way, and allows for css functions.
+    Create your file.sass, sass binary will watch the sass file for any changes, and will compile it to actual css.
+- webpack (dev). All it does, is compile multiple Javascript files into a single file.
+- webpack-cli (dev). Command line interface for webpack.
+- nodemon (global). Watches your project, and executes your script when anything changes.
+- npm-run-all (global). Allows you to execute multiple package.json scripts at once, as well as in parallel.
+- dotenv. Allows your js files to interact with your .env file to load environment-specific variables.
+- ejs. Templating engine for express to load mixed code containing server side Javascript and frontend html, css, js. Allows you to import and use partials.
+
+html file, connects to JavaScript files using <script> tag.
+
+-> package.json -> scripts
+    "start", many different applications, if you dont have "main": "example.js", will instead run the "start" script.
+
+
+-> nodemon.json (configuration for nodemon)
+{
+    "verbose": true,        
+    "ignore": [],               // What files should nodemon ignore.
+    "watch": ["src"],           // What folders should nodemon watch.
+    "ext": "js,json",           // What extensions inside those folders should nodemon watch.
+    "exec": "npm run start"     // When any of those files change, what command should nodemon execute.
+}
+
+-> webpack-config.cjs (configuration for webpack)
+const path = require('path');           // Import the path library with old syntax.
+
+module.exports = {
+    'mode': 'development',              // Compile with development standards rather than production.
+    'entry': './src/js/Main.js',        // What file should webpack compile.
+    'devtool': 'source-map',            // Output .map files to tell the client what order of operation were executed in order to end up in that state.
+    'output': {                         
+        'path': path.resolve(__dirname, './public/js'),        // Where should webpack output generate the output.
+        'filename': 'main.js'                                   // What filename should webpack use for the generated output.
+    },
+}
+
+-> .env
+    Contains a list of key value pairs that act as environment variables. Never sync this.
+
+
+Compiling HTML ->
+
+top -> Open html, head tags, and the open body tag.
+navigation -> Just contains the html for navigation bar.
+footer -> html for the footer.
+bottom -> Contains the closing body tag and the closing html tag. + any scripts that are loaded.
+
+about -> import top, import navigation, import footer, import bottom.
+
+Allows html snippets to seperated and spread across multiple files.
+Allows server-side JS to be executed and interpreted before the html file is compiled.
+
+State all of the html files on the server side. (views)
+Client performs a http request to the server ->
+Server catches the request and sends it to express ->
+Express handles the routing information (what path are you going to) ->
+Router -> What view do I need to load? (about)
+About View -> Contain html for the about page, import the other snippets. Express compile all this html.
+Express -> Send the compiled html back to the client.
+
+
+
+
+Express. Requires a HTTP Instance.
+
+This allows your http information to be sent and interpreted by express.
+
+Inside express, you define all of your routes:
+
+/ (load the index router (index.js))
+/about (load the about router (about.js))
+
+Router will take the http information and do the processing necessary (look at the headers, and queries sent, the POST information).
+Router renders a view.
+
+View is in a mixed format called ejs. Allows it to contain both html (including frontend css and js) AND server-side JavaScript.
+
+about.ejs ->
+
+    import top.ejs (other views containing more html code)
+    import navigation.ejs
+
+    <div>
+        <ul>
+            <li><a>Hello</a></li>
+            <li><a>Hello2</a></li>
+            <li><a>Hello3</a></li>
+            <li><a>Hello4</a></li>
+        </ul>
+    </div>
+
+    import footer.ejs
+    import bottom.ejs
+
+
+Router can pass variables to the view.
+
+Router can say (render about view and pass in this variable.)
+
+Variable example myList = ['matt', 'rish', 'foo', 'bar']
+Variable myHeading = 'This is my heading'
+
+    import top.ejs (other views containing more html code)
+    import navigation.ejs
+
+    <h1><%- myHeading %></h1>
+
+    <div>
+        <ul>
+            <% myList.forEach(item => { %>
+                <%- <li><a>item</a></li> %>
+            <% }); %>
+        </ul>
+    </div>
+
+    import footer.ejs
+    import bottom.ejs
