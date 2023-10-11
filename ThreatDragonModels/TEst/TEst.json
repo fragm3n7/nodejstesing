@@ -692,7 +692,7 @@
                 "height": 80
               },
               "position": {
-                "x": 168,
+                "x": 169,
                 "y": 167
               },
               "angle": 0,
@@ -719,8 +719,8 @@
                 "height": 100
               },
               "position": {
-                "x": 538,
-                "y": 161
+                "x": 514,
+                "y": 260
               },
               "angle": 0,
               "id": "39b0e76c-a5e9-4c37-b856-e86b03078937",
@@ -800,7 +800,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Web\nApplication"
+                  "text": "Agent"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -909,8 +909,8 @@
                 "height": 100
               },
               "position": {
-                "x": 755,
-                "y": 24
+                "x": 753,
+                "y": 74
               },
               "angle": 0,
               "id": "de62d100-9936-44d1-8ba9-faa9accdfe2d",
@@ -1326,6 +1326,108 @@
                 }
               ],
               "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 510,
+                "y": 89
+              },
+              "angle": 0,
+              "id": "96d9325a-a79c-40c7-b761-f96e6c3e2204",
+              "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "IOTICSpace\nPortal"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "016106a3-a6e0-4a9b-a542-bfaaec3399ac"
+              },
+              "target": {
+                "id": "96d9325a-a79c-40c7-b761-f96e6c3e2204"
+              },
+              "vertices": [],
+              "id": "ce9be562-f3ca-43bd-80ea-6bd755cba65f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 15",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "96d9325a-a79c-40c7-b761-f96e6c3e2204"
+              },
+              "target": {
+                "id": "39b0e76c-a5e9-4c37-b856-e86b03078937"
+              },
+              "vertices": [],
+              "id": "f15d7a37-a88a-424f-8ec2-02beb1ad586a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 16",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 25,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
