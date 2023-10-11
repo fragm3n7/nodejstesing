@@ -2878,7 +2878,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Redis Data\nStore"
+                  "text": "Event Bus"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -3044,32 +3044,6 @@
                 "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
-              },
-              "angle": 0,
-              "id": "5b5730e4-7d52-4775-ae17-bac2c16c5c3a",
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "process 8"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
                 "x": 654,
                 "y": 173
               },
@@ -3082,7 +3056,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 9"
+                  "text": "Redis Data\nStore"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
