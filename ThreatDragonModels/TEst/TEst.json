@@ -4241,6 +4241,12 @@
           "height": 590,
           "width": 995
         }
+      },
+      {
+        "title": "Insider Threat Decentralised Identity Entry Point",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 8
       }
     ],
     "reviewer": "Rishabh Verma"
