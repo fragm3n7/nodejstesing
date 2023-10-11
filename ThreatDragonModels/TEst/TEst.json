@@ -1450,6 +1450,12 @@
           "height": 590,
           "width": 2364
         }
+      },
+      {
+        "title": "Insider Threat Overview",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 3
       }
     ],
     "reviewer": "Rishabh Verma"
