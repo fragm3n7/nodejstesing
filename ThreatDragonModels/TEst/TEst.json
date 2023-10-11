@@ -3107,6 +3107,12 @@
           "height": 590,
           "width": 818
         }
+      },
+      {
+        "title": "Insider Threat Scenario Connector Entry Point",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 6
       }
     ],
     "reviewer": "Rishabh Verma"
