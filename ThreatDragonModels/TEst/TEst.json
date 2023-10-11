@@ -1,19 +1,19 @@
 {
   "summary": {
     "title": "TEst",
-    "owner": "Test",
-    "description": "Test"
+    "owner": "Rishabh Verma",
+    "description": "IOTICSpace, the platform provided by Iotics, enables secure, selective sharing of data across trusted cooperative ecosystems. One of the use cases of IOTICSpace is creating **digital twins** of physical assets, which are virtual versions of anything (assets, data, algorithms) to enable secure interactions across decentralized networks. For instance, Iotics is creating a digital twin of Portsmouth International Port as part of an ambitious £1.5m project to demonstrate an achievable modular green hydrogen generation system within the Port. The Shipping, Hydrogen & Port Ecosystems UK (SHAPE UK) project is part of the Clean Maritime Demonstration Competition, funded by the Department for Transport and delivered in partnership with Innovate UK. The digital twin approach will create a scalable model that is translatable for other ecosystems, use cases and locations, offering a flexible foundation for further development. \n\nOne use case for IOTICSpace is in the field of asset management. For example, IOTICSpace can be used to monitor and optimize energy consumption in buildings by virtualizing each building as a digital twin that exposes metadata, feeds & controls. This allows for real-time monitoring and optimization of energy consumption"
   },
   "detail": {
     "contributors": [],
     "diagrams": [
       {
-        "title": "test",
+        "title": "External Threat Actor",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 0
       }
     ],
-    "reviewer": "Test"
+    "reviewer": "Rishabh Verma"
   }
 }
