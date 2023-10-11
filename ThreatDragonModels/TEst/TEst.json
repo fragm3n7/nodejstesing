@@ -156,7 +156,7 @@
               "id": "3cdf9077-50ba-4759-8427-a2a9d528c34c",
               "z": 3,
               "hasOpenThreats": true,
-              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs",
+              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs\nCreate Twins\nCreate Twin Models\nUpsert Twins\nUpdate Twins\nSearch & Describe Twins\nShare Data and Follow Feed\nSend & Receive Input Messages\nDelete Twins",
               "threats": [
                 {
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
@@ -251,7 +251,7 @@
               "id": "de62d100-9936-44d1-8ba9-faa9accdfe2d",
               "z": 4,
               "hasOpenThreats": true,
-              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs",
+              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs.",
               "threats": [
                 {
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
