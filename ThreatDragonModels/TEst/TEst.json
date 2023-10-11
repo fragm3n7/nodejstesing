@@ -4294,8 +4294,8 @@
                   "status": "Open",
                   "severity": "Medium",
                   "modelType": "STRIDE",
-                  "title": "Session Misconfiguration",
-                  "description": "Decentralised Identity Poisoning\nDecentralised identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
+                  "title": "Misconfiguration",
+                  "description": "JWT Misconfiguration\nDDO Leaked\nResolver System Compromise\nSQL Injection",
                   "type": "Tampering",
                   "threatId": "e1be92c1-3b63-4829-b25b-4b1e257487d8"
                 }
@@ -4331,8 +4331,8 @@
                   "status": "Open",
                   "severity": "Medium",
                   "modelType": "STRIDE",
-                  "title": "Session Misconfiguration",
-                  "description": "Decentralised Identity Poisoning\nDecentralised identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
+                  "title": "Misconfiguration",
+                  "description": "JWT Misconfiguration\nDDO Leaked\nResolver System Compromise\nSQL Injection",
                   "type": "Tampering",
                   "threatId": "a4dd0b87-49e3-4b32-aded-ef6b20754da1"
                 }
