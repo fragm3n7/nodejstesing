@@ -11,7 +11,14 @@
         "title": "External Threat Actor",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": []
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       },
       {
         "title": "Insider Threat Scenario Web Application",
