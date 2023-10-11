@@ -1918,6 +1918,12 @@
           "height": 599,
           "width": 1398
         }
+      },
+      {
+        "title": "Overall Data Flow",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 4
       }
     ],
     "reviewer": "Rishabh Verma"
