@@ -795,6 +795,7 @@
                   "threatId": "08daf0c5-9320-4497-849b-7fc19e3995c7"
                 }
               ],
+              "description": "Perform:\nTampering\nCross Organisational Attacks",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
@@ -895,7 +896,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Admin User\nApp Access"
+                  "text": "Admin User\nAccess"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -909,7 +910,7 @@
                 "height": 100
               },
               "position": {
-                "x": 753,
+                "x": 752,
                 "y": 74
               },
               "angle": 0,
@@ -990,7 +991,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Standard User\nApp Access"
+                  "text": "Standard User\nAccess"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -1277,10 +1278,13 @@
               "id": "53ea3ec9-929e-431f-ab6f-a904c74b59ba",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.44398990326021637,
+                    "offset": -7.660855010243668
+                  },
                   "attrs": {
                     "text": {
-                      "text": "REST API",
+                      "text": "gRPC API",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1289,6 +1293,7 @@
               ],
               "z": 21,
               "hasOpenThreats": false,
+              "description": "gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. gRPC Clients and Servers can run and talk to each other in a variety of environments",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1318,7 +1323,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "REST API",
+                      "text": "gRPC API",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1327,6 +1332,7 @@
               ],
               "z": 22,
               "hasOpenThreats": false,
+              "description": "gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. gRPC Clients and Servers can run and talk to each other in a variety of environments",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
