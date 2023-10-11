@@ -35,7 +35,7 @@
               },
               "position": {
                 "x": 168,
-                "y": 167
+                "y": 166
               },
               "angle": 0,
               "id": "016106a3-a6e0-4a9b-a542-bfaaec3399ac",
@@ -119,10 +119,10 @@
                   "title": "Generic DoS threat",
                   "type": "Denial of service",
                   "modelType": "STRIDE",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "description": "A generic DoS threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "mitigation": "Mitigation or prevention for the threat\nAWS NLB",
                   "threatId": "41712bdb-eb7d-4607-adca-3d9efe06eead"
                 },
                 {
@@ -157,7 +157,7 @@
               },
               "position": {
                 "x": 757,
-                "y": 328
+                "y": 327
               },
               "angle": 0,
               "id": "3cdf9077-50ba-4759-8427-a2a9d528c34c",
