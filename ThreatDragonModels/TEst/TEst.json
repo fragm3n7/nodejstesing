@@ -1985,8 +1985,8 @@
                 "height": 100
               },
               "position": {
-                "x": 26,
-                "y": 262
+                "x": 12,
+                "y": 252
               },
               "angle": 0,
               "id": "ab025366-9e44-46e7-93c0-7bffb73c03a4",
@@ -1997,7 +1997,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Envoy (Proxy)"
+                  "text": "IOTICSpace\nPortal"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -2764,32 +2764,6 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 170,
-                "y": 238
-              },
-              "angle": 0,
-              "id": "29759adc-c6d8-42c5-ab88-baed2eced2b1",
-              "z": 27,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Front End UI"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
