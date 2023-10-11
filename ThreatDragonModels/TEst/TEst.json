@@ -4298,6 +4298,15 @@
                   "description": "JWT Misconfiguration\nDDO Leaked\nResolver System Compromise\nSQL Injection",
                   "type": "Tampering",
                   "threatId": "e1be92c1-3b63-4829-b25b-4b1e257487d8"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Decentralised Identity Misconfiguration",
+                  "type": "Tampering",
+                  "description": "Weak Cryptographic Key\nDecentralised Identity Poisoning\nDecentralised Identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
+                  "threatId": "867b276e-a455-4731-b4fd-9ef7eabf7a5f"
                 }
               ],
               "attrs": {
@@ -4335,6 +4344,15 @@
                   "description": "JWT Misconfiguration\nDDO Leaked\nResolver System Compromise\nSQL Injection",
                   "type": "Tampering",
                   "threatId": "a4dd0b87-49e3-4b32-aded-ef6b20754da1"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Decentralised Identity Misconfiguration",
+                  "type": "Tampering",
+                  "description": "Weak Cryptographic Key\nDecentralised Identity Poisoning\nDecentralised Identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
+                  "threatId": "19cfa630-6678-4c54-bfc6-54a954b446f3"
                 }
               ],
               "attrs": {
