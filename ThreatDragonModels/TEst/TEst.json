@@ -5668,16 +5668,27 @@
               "angle": 0,
               "id": "5b11056d-90e2-4294-9804-89658ae33092",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Other Agent Compromise",
+                  "type": "Elevation of privilege",
+                  "description": "Compromised user trying to gain other agents access",
+                  "threatId": "6f9b99e6-1c14-4698-bfb4-3cb610960a97"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "User"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
