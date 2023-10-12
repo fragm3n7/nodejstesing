@@ -5968,6 +5968,327 @@
           "height": 590,
           "width": 790
         }
+      },
+      {
+        "title": "Copy of Insider Threat Decentralised Identity Agent Entry Point",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 9,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 163,
+                "y": 156
+              },
+              "angle": 0,
+              "id": "5b11056d-90e2-4294-9804-89658ae33092",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Other Agent Compromise",
+                  "type": "Elevation of privilege",
+                  "description": "Compromised user trying to gain other agents access",
+                  "threatId": "6f9b99e6-1c14-4698-bfb4-3cb610960a97"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 368,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "dfaa2051-0785-4e13-a670-37d6e7664285",
+              "z": 2,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Misconfiguration",
+                  "description": "JWT Misconfiguration\nDDO Leaked\nResolver System Compromise\nSQL Injection",
+                  "type": "Tampering",
+                  "threatId": "e1be92c1-3b63-4829-b25b-4b1e257487d8"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Decentralised Identity Misconfiguration",
+                  "type": "Tampering",
+                  "description": "Weak Cryptographic Key\nDecentralised Identity Poisoning\nDecentralised Identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
+                  "threatId": "867b276e-a455-4731-b4fd-9ef7eabf7a5f"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Agent"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 372,
+                "y": 268
+              },
+              "angle": 0,
+              "id": "7d6ed92d-a67d-4040-9332-59d92db9dc09",
+              "z": 3,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Misconfiguration",
+                  "description": "JWT Misconfiguration\nDDO Leaked\nResolver System Compromise\nSQL Injection",
+                  "type": "Tampering",
+                  "threatId": "a4dd0b87-49e3-4b32-aded-ef6b20754da1"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Decentralised Identity Misconfiguration",
+                  "type": "Tampering",
+                  "description": "Weak Cryptographic Key\nDecentralised Identity Poisoning\nDecentralised Identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
+                  "threatId": "19cfa630-6678-4c54-bfc6-54a954b446f3"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Agent"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 560,
+                "y": 154
+              },
+              "angle": 0,
+              "id": "4e64c3e9-d59c-41ae-b1e2-aac35a679791",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Twin"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "5b11056d-90e2-4294-9804-89658ae33092"
+              },
+              "target": {
+                "id": "dfaa2051-0785-4e13-a670-37d6e7664285"
+              },
+              "vertices": [],
+              "id": "7ab5955e-41a4-4519-9ff7-cb19643177c8",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "5b11056d-90e2-4294-9804-89658ae33092"
+              },
+              "target": {
+                "id": "7d6ed92d-a67d-4040-9332-59d92db9dc09"
+              },
+              "vertices": [],
+              "id": "92c55310-5df6-43ac-9c37-867084edb4a2",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 5",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "4e64c3e9-d59c-41ae-b1e2-aac35a679791"
+              },
+              "target": {
+                "id": "7d6ed92d-a67d-4040-9332-59d92db9dc09"
+              },
+              "vertices": [],
+              "id": "15a01020-9819-4895-b84b-731e2a8fb28c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 6",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "4e64c3e9-d59c-41ae-b1e2-aac35a679791"
+              },
+              "target": {
+                "id": "dfaa2051-0785-4e13-a670-37d6e7664285"
+              },
+              "vertices": [],
+              "id": "ebd9d552-8eac-410b-933d-89a04f0090d1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 7",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "Rishabh Verma"
