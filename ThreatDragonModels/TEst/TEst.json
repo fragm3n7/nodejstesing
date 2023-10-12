@@ -4259,22 +4259,90 @@
                 "height": 100
               },
               "position": {
-                "x": 267,
-                "y": 206
+                "x": 355,
+                "y": 245
               },
               "angle": 0,
               "id": "5023ecda-4237-4f85-8c68-a6f78c9e15fd",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "af16a550-d053-4841-895c-37a66d7286ef"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "333728e8-0068-4861-afd6-460fa7927439"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "feec4082-4cf0-4f5d-a366-86c05fe46f02"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "8563f09e-a3ea-460f-8506-432fcff7a13c"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "c021aecc-ae44-479a-9b82-6522df6d6c55"
+                },
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic elevation of privileges threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "b1227006-b800-41ec-9dd5-f0b6de4545b1"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Twin Agent"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -4285,8 +4353,8 @@
                 "height": 80
               },
               "position": {
-                "x": 8,
-                "y": 210
+                "x": 104,
+                "y": 259
               },
               "angle": 0,
               "id": "c4eaead9-5155-478e-8cb7-fab816560d8b",
@@ -4311,22 +4379,90 @@
                 "height": 100
               },
               "position": {
-                "x": 453,
-                "y": 207
+                "x": 538,
+                "y": 233
               },
               "angle": 0,
               "id": "e089b2af-f239-445a-8d7d-c97896f54293",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "f7ad6a05-5d91-4c76-b66f-875493b3d02c"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "66edb821-c0a1-4c3a-9ef0-5964d7ac4122"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "411ffd1a-072c-4a93-96e7-3188b1606ebc"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "a5c8fb0d-8753-4380-bf99-aa88fabf624d"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "488dcf0c-0a8a-48d1-a0cc-e2b8dbb4e90b"
+                },
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic elevation of privileges threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "1414aa14-c18f-4847-9991-af25860383d3"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Data"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -4338,21 +4474,21 @@
               },
               "smooth": true,
               "source": {
-                "x": 545,
-                "y": 92
+                "x": 674,
+                "y": 81
               },
               "target": {
-                "x": 627,
-                "y": 438
+                "x": 776,
+                "y": 507
               },
               "vertices": [
                 {
-                  "x": 600,
-                  "y": 191
+                  "x": 733,
+                  "y": 195
                 },
                 {
-                  "x": 591,
-                  "y": 359
+                  "x": 720,
+                  "y": 399
                 }
               ],
               "id": "6a8f9b68-22f8-4791-a9b8-b5aae002b561",
@@ -4366,8 +4502,8 @@
                 "height": 100
               },
               "position": {
-                "x": 697,
-                "y": 80
+                "x": 794,
+                "y": 82
               },
               "angle": 0,
               "id": "beb3a22b-06bf-4300-a965-63449dd7b46a",
@@ -4392,8 +4528,8 @@
                 "height": 100
               },
               "position": {
-                "x": 694,
-                "y": 221
+                "x": 798,
+                "y": 226
               },
               "angle": 0,
               "id": "75bd80d9-443f-498b-ba6f-fbde7608b988",
@@ -4418,8 +4554,8 @@
                 "height": 100
               },
               "position": {
-                "x": 698,
-                "y": 376
+                "x": 811,
+                "y": 378
               },
               "angle": 0,
               "id": "0aaa63c4-b983-4bf0-856f-16cd8e31253b",
@@ -4634,8 +4770,8 @@
                 "height": 100
               },
               "position": {
-                "x": 892,
-                "y": 211
+                "x": 1047,
+                "y": 214
               },
               "angle": 0,
               "id": "69338efd-c6d3-486c-a15f-330264d4a3ac",
@@ -4804,12 +4940,41 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 28,
+                "y": 123
+              },
+              "target": {
+                "x": 114,
+                "y": 519
+              },
+              "vertices": [
+                {
+                  "x": 81,
+                  "y": 217
+                },
+                {
+                  "x": 81,
+                  "y": 433
+                }
+              ],
+              "id": "16959642-b8bf-4f5c-9f62-a5fa79e3e382",
+              "z": 18,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 590,
-          "width": 995
+          "height": 771,
+          "width": 1244
         }
       },
       {
