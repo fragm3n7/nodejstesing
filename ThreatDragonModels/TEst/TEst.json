@@ -2438,7 +2438,7 @@
         }
       },
       {
-        "title": "Insider Threat Overview",
+        "title": "Insider Threat AllowList Overview",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 3,
