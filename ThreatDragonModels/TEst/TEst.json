@@ -3913,8 +3913,8 @@
                 "height": 100
               },
               "position": {
-                "x": 337,
-                "y": 372
+                "x": 332,
+                "y": 383
               },
               "angle": 0,
               "id": "2909a602-e248-4409-a65f-d4bb22ff50a8",
@@ -4117,8 +4117,8 @@
                 "height": 100
               },
               "position": {
-                "x": 654,
-                "y": 173
+                "x": 661,
+                "y": 185
               },
               "angle": 0,
               "id": "e3accd0d-c52a-4234-ad0b-8cd0c5dce1b7",
@@ -4173,12 +4173,76 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 858,
+                "y": 188
+              },
+              "angle": 0,
+              "id": "72c83a18-d117-428a-be98-3834b530c5a4",
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Meta Data Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "e3accd0d-c52a-4234-ad0b-8cd0c5dce1b7"
+              },
+              "target": {
+                "id": "72c83a18-d117-428a-be98-3834b530c5a4"
+              },
+              "vertices": [],
+              "id": "4f6d087a-fe6d-4ee0-97bc-351b974d5cf7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 11",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 818
+          "width": 1025
         }
       },
       {
