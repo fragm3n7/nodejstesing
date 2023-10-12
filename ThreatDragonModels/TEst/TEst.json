@@ -2906,7 +2906,7 @@
         }
       },
       {
-        "title": "Application Overall Data Flow",
+        "title": "Application Overall Data Flow Entry Point",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 4,
@@ -2971,8 +2971,8 @@
                 "height": 100
               },
               "position": {
-                "x": 12,
-                "y": 252
+                "x": 100,
+                "y": 220
               },
               "angle": 0,
               "id": "ab025366-9e44-46e7-93c0-7bffb73c03a4",
@@ -3752,6 +3752,26 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 30,
+                "y": 20
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [],
+              "id": "69621472-6f2b-4140-a539-95777e264d4a",
+              "z": 27,
+              "attrs": {}
             }
           ]
         },
