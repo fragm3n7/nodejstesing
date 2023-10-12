@@ -5990,20 +5990,10 @@
               "id": "5b11056d-90e2-4294-9804-89658ae33092",
               "z": 1,
               "hasOpenThreats": true,
-              "threats": [
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "modelType": "STRIDE",
-                  "title": "Other Agent Compromise",
-                  "type": "Elevation of privilege",
-                  "description": "Compromised user trying to gain other agents access",
-                  "threatId": "6f9b99e6-1c14-4698-bfb4-3cb610960a97"
-                }
-              ],
+              "threats": [],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "User"
@@ -6045,6 +6035,15 @@
                   "type": "Tampering",
                   "description": "Weak Cryptographic Key\nDecentralised Identity Poisoning\nDecentralised Identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
                   "threatId": "867b276e-a455-4731-b4fd-9ef7eabf7a5f"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Compormised Agent taking over other user accounts",
+                  "description": "Compormised Agent taking over other user accounts",
+                  "type": "Elevation of privilege",
+                  "threatId": "04f4f8f1-7c0a-49c5-a5d9-8517b9ccd96a"
                 }
               ],
               "attrs": {
@@ -6091,6 +6090,15 @@
                   "type": "Tampering",
                   "description": "Weak Cryptographic Key\nDecentralised Identity Poisoning\nDecentralised Identity Compromise\nDecentralised Identity Spoofing\nExposed Private Key",
                   "threatId": "19cfa630-6678-4c54-bfc6-54a954b446f3"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Compormised Agent taking over other user accounts",
+                  "description": "Compormised Agent taking over other user accounts",
+                  "type": "Tampering",
+                  "threatId": "a8c3fc32-70f4-4bcd-affd-d2579a842185"
                 }
               ],
               "attrs": {
@@ -6128,82 +6136,6 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "5b11056d-90e2-4294-9804-89658ae33092"
-              },
-              "target": {
-                "id": "dfaa2051-0785-4e13-a670-37d6e7664285"
-              },
-              "vertices": [],
-              "id": "7ab5955e-41a4-4519-9ff7-cb19643177c8",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 4",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 5,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "5b11056d-90e2-4294-9804-89658ae33092"
-              },
-              "target": {
-                "id": "7d6ed92d-a67d-4040-9332-59d92db9dc09"
-              },
-              "vertices": [],
-              "id": "92c55310-5df6-43ac-9c37-867084edb4a2",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 5",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -6273,6 +6205,82 @@
                 }
               ],
               "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "7d6ed92d-a67d-4040-9332-59d92db9dc09"
+              },
+              "target": {
+                "id": "5b11056d-90e2-4294-9804-89658ae33092"
+              },
+              "vertices": [],
+              "id": "a404d878-7ea9-423c-9e38-2c6ed77b4ccb",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 7",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "dfaa2051-0785-4e13-a670-37d6e7664285"
+              },
+              "target": {
+                "id": "5b11056d-90e2-4294-9804-89658ae33092"
+              },
+              "vertices": [],
+              "id": "8a3f64fe-71a1-4f56-9dd3-38e8d7c35848",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 7",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
