@@ -1557,7 +1557,7 @@
         }
       },
       {
-        "title": "Insider Threat Scenario Agent",
+        "title": "Delegated Agent -> Twin (API Model)",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 2,
