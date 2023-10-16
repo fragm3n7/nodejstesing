@@ -1583,7 +1583,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Insider Threat"
+                  "text": "Trusted User"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1693,8 +1693,8 @@
                 "height": 100
               },
               "position": {
-                "x": 742,
-                "y": 344
+                "x": 727,
+                "y": 249
               },
               "angle": 0,
               "id": "3cdf9077-50ba-4759-8427-a2a9d528c34c",
@@ -1774,7 +1774,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Admin User\nAccess"
+                  "text": "Twin"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -1788,103 +1788,8 @@
                 "height": 100
               },
               "position": {
-                "x": 736,
-                "y": 92
-              },
-              "angle": 0,
-              "id": "de62d100-9936-44d1-8ba9-faa9accdfe2d",
-              "z": 4,
-              "hasOpenThreats": true,
-              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs",
-              "threats": [
-                {
-                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
-                  "title": "Generic spoofing threat",
-                  "type": "Spoofing",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic spoofing threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "1ed3ec19-f95e-4bb6-8bb7-37890ccdd465"
-                },
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
-                  "type": "Tampering",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "c29164df-56db-40eb-9c8b-4cde5cb9c550"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
-                  "type": "Repudiation",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "e610aa7f-8a9b-4c65-829a-87ded0bc319b"
-                },
-                {
-                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic information disclosure threat",
-                  "type": "Information disclosure",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "be673117-9d2d-4424-8337-fb95ff5aef06"
-                },
-                {
-                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
-                  "title": "Generic DoS threat",
-                  "type": "Denial of service",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic DoS threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "8df510d5-877d-41ac-a767-221a34554709"
-                },
-                {
-                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
-                  "title": "Generic elevation threat",
-                  "type": "Elevation of privilege",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic elevation of privileges threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "3dec9abf-307f-4ca0-b38d-dd40363f601e"
-                }
-              ],
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Standard User\nAccess"
-                },
-                ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 1002,
-                "y": 204
+                "x": 1005,
+                "y": 240
               },
               "angle": 0,
               "id": "0d386beb-4855-49d7-b876-56f8150e234e",
@@ -1930,44 +1835,6 @@
                 }
               ],
               "z": 7,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "de62d100-9936-44d1-8ba9-faa9accdfe2d"
-              },
-              "target": {
-                "id": "0d386beb-4855-49d7-b876-56f8150e234e"
-              },
-              "vertices": [],
-              "id": "c1d3762c-5855-451d-bdd6-cbc2902e4d7e",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 15,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -2081,8 +1948,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1229,
-                "y": 216
+                "x": 1226,
+                "y": 255
               },
               "angle": 0,
               "id": "6ea5fae0-7143-42f5-a78e-cefd2a7e28ff",
@@ -2150,48 +2017,6 @@
                 "id": "39b0e76c-a5e9-4c37-b856-e86b03078937"
               },
               "target": {
-                "id": "de62d100-9936-44d1-8ba9-faa9accdfe2d"
-              },
-              "vertices": [],
-              "id": "53ea3ec9-929e-431f-ab6f-a904c74b59ba",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.44398990326021637,
-                    "offset": -7.660855010243668
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "gRPC API",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 21,
-              "hasOpenThreats": false,
-              "description": "gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. gRPC Clients and Servers can run and talk to each other in a variety of environments",
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "39b0e76c-a5e9-4c37-b856-e86b03078937"
-              },
-              "target": {
                 "id": "3cdf9077-50ba-4759-8427-a2a9d528c34c"
               },
               "vertices": [],
@@ -2227,7 +2052,7 @@
                 "height": 100
               },
               "position": {
-                "x": 510,
+                "x": 501,
                 "y": 89
               },
               "angle": 0,
@@ -2239,7 +2064,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "IOTICSpace\nPortal"
+                  "text": "IOTICSpace\nUser"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -2304,7 +2129,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 16",
+                      "text": "Delegate",
                       "font-weight": "400",
                       "font-size": "small"
                     }
