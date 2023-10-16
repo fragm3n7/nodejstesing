@@ -1694,13 +1694,13 @@
               },
               "position": {
                 "x": 727,
-                "y": 249
+                "y": 255
               },
               "angle": 0,
               "id": "3cdf9077-50ba-4759-8427-a2a9d528c34c",
               "z": 3,
               "hasOpenThreats": true,
-              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs",
+              "description": "IOTICS CRUD (Create, Read, Update, Delete) on Twins, Feeds and Inputs\nCreate Twin\nUpdate a Twin\nDescribe a local twin",
               "threats": [
                 {
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
@@ -1789,7 +1789,7 @@
               },
               "position": {
                 "x": 1005,
-                "y": 240
+                "y": 250
               },
               "angle": 0,
               "id": "0d386beb-4855-49d7-b876-56f8150e234e",
@@ -1948,8 +1948,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1226,
-                "y": 255
+                "x": 1220,
+                "y": 262
               },
               "angle": 0,
               "id": "6ea5fae0-7143-42f5-a78e-cefd2a7e28ff",
