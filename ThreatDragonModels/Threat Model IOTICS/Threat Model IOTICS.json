@@ -771,17 +771,28 @@
               "angle": 0,
               "id": "7185e464-6b3e-4666-a735-a99304f616f9",
               "z": 13,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "description": "Identity Solvency, Can a trusted user register in a different environment?\nThis will be performed using register API command.",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Tampering",
+                  "type": "Tampering",
+                  "description": "Added user to IOTICSpace.",
+                  "threatId": "d993b1e0-b945-4540-b640-3712ba3d1cdd"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "IOTICSpace"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -964,22 +975,33 @@
                 "height": 100
               },
               "position": {
-                "x": 1296,
-                "y": 337
+                "x": 1294,
+                "y": 330
               },
               "angle": 0,
               "id": "880031a0-3ec0-45db-81c8-f1ed8159fd15",
               "z": 18,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Tampering",
+                  "type": "Tampering",
+                  "description": "Add trusted user to to other IOTICSpace",
+                  "threatId": "1e86e453-74c5-4596-b8d0-8b286f43ccfe"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Trusted User"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
