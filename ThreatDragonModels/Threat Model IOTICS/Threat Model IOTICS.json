@@ -300,6 +300,35 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 631,
+                "y": 20
+              },
+              "target": {
+                "x": 764,
+                "y": 519
+              },
+              "vertices": [
+                {
+                  "x": 701,
+                  "y": 115
+                },
+                {
+                  "x": 716,
+                  "y": 453
+                }
+              ],
+              "id": "6651fb3d-140f-44e2-8389-0d11bd255a7e",
+              "z": 10,
+              "attrs": {}
             }
           ]
         },
