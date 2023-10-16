@@ -2919,8 +2919,8 @@
                 "height": 100
               },
               "position": {
-                "x": 320,
-                "y": 223
+                "x": 315,
+                "y": 215
               },
               "angle": 0,
               "id": "6a88bfa4-aa8f-4777-90cb-178d8163eeb1",
@@ -2931,7 +2931,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "User"
+                  "text": "Permissions"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
