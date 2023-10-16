@@ -1087,6 +1087,12 @@
           "height": 590,
           "width": 1413
         }
+      },
+      {
+        "title": "Network Allow List Tampering",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 3
       }
     ],
     "reviewer": "Rishabh"
