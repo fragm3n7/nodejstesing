@@ -2118,6 +2118,7 @@
                   "threatId": "e4ad84b1-dc66-4d8c-8a83-5a8bf9dbb122"
                 }
               ],
+              "description": "DDOS\nCreate a lot of identities - DDoS\nTampering:\nAuthenticate on behalf of other users.\nAccess Control:\nModify documents of other users in DID.",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
