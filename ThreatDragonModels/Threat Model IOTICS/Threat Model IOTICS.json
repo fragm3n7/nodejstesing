@@ -13,7 +13,7 @@
         "id": 0
       },
       {
-        "title": "External Infrastructure",
+        "title": "Trsuted User External Infrastructure",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 1,
