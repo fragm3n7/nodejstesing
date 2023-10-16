@@ -914,7 +914,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Insider Threat"
+                  "text": "Trusted User"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
