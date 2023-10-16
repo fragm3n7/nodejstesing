@@ -1826,26 +1826,17 @@
               "angle": 0,
               "id": "48476fbb-3193-4de2-8566-ca7fb089a8c8",
               "z": 7,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "modelType": "STRIDE",
-                  "title": "Tampering",
-                  "type": "Tampering",
-                  "threatId": "08c68e32-fdc3-4e52-86c8-439cc9ad7102"
-                }
-              ],
+              "hasOpenThreats": false,
+              "threats": [],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Network API"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -2116,16 +2107,26 @@
               "angle": 0,
               "id": "be7ab53f-9bfe-4905-8eaa-0a2ed0e37393",
               "z": 15,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Tampering",
+                  "type": "Tampering",
+                  "threatId": "e4ad84b1-dc66-4d8c-8a83-5a8bf9dbb122"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Resolver API"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
