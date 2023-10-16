@@ -11,6 +11,12 @@
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 0
+      },
+      {
+        "title": "External Infrastructure",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 1
       }
     ],
     "reviewer": "Rishabh"
