@@ -329,100 +329,6 @@
                 "height": 100
               },
               "position": {
-                "x": 376,
-                "y": 525
-              },
-              "angle": 0,
-              "id": "304be770-6e61-4866-b92e-67915eda73da",
-              "z": 6,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
-                  "title": "Generic spoofing threat",
-                  "type": "Spoofing",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic spoofing threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "e2c7a042-6aef-4ead-92c8-beb89e812e06"
-                },
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
-                  "type": "Tampering",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "5fe18c7b-27b5-428c-a897-d9c533ba13b4"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
-                  "type": "Repudiation",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "8f931468-d8b1-4df7-8155-d0a02b063c2f"
-                },
-                {
-                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic information disclosure threat",
-                  "type": "Information disclosure",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "ab3abb53-2432-49c4-a434-74a5bce55dc2"
-                },
-                {
-                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
-                  "title": "Generic DoS threat",
-                  "type": "Denial of service",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic DoS threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "deb47bc8-3e07-4f4d-9550-7d1e08ef5fa6"
-                },
-                {
-                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
-                  "title": "Generic elevation threat",
-                  "type": "Elevation of privilege",
-                  "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic elevation of privileges threat",
-                  "mitigation": "Mitigation or prevention for the threat",
-                  "threatId": "da3bd042-9637-48e2-be6c-2656fdf1e285"
-                }
-              ],
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Github"
-                },
-                ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
                 "x": 576,
                 "y": 57
               },
@@ -576,44 +482,6 @@
                 }
               ],
               "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "8a723a81-ab2d-4bb3-b078-8bd6a7c31d7a"
-              },
-              "target": {
-                "id": "304be770-6e61-4866-b92e-67915eda73da"
-              },
-              "vertices": [],
-              "id": "90f5038c-aa56-4299-b4a3-fbcdea6a3600",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 10,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -805,8 +673,8 @@
                 "height": 100
               },
               "position": {
-                "x": 598,
-                "y": 403
+                "x": 599,
+                "y": 411
               },
               "angle": 0,
               "id": "0b5a1d51-c52a-45f2-af5f-55eabb3c2b5c",
@@ -852,70 +720,6 @@
                 }
               ],
               "z": 19,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 594,
-                "y": 514
-              },
-              "angle": 0,
-              "id": "6dd7d344-13e2-4d00-8a5c-5275078bc379",
-              "z": 20,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Code Base"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "304be770-6e61-4866-b92e-67915eda73da"
-              },
-              "target": {
-                "id": "6dd7d344-13e2-4d00-8a5c-5275078bc379"
-              },
-              "vertices": [],
-              "id": "e1c01e64-31ad-4556-baa7-b61664ffb191",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 21,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -1020,7 +824,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
