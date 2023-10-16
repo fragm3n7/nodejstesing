@@ -336,6 +336,12 @@
           "height": 590,
           "width": 820
         }
+      },
+      {
+        "title": "Delegation Model Attack",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 2
       }
     ],
     "reviewer": "Rishabh"
